@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="learning1.css">
+    <title>Studying</title>
+
+</head>
+
+<body>
+    <legend <style="font-size: larger;">Data</legend>
+
+    <section>
+        <table border="0" cellpadding="0" cellspacing="30" class="border">
+            <caption style="border:rgb(3, 31, 66); border-right-style: solid; border-left-style:solid;">Orders</caption>
+            <tr>
+                <th class="border-head">Id</th>
+                <th class="border-head">Date</th>
+                <th class="border-head">Customer</th>
+                <th class="border-head">Country</th>
+                <th class="border-head">Progress</th>
+                <th class="border-head">Status</th>
+            </tr>
+
+            <tr>
+                <td>123</td>
+                <td>Sep 12, 2017</td>
+                <td id="loser">Jean Rousseau</td>
+                <td>France</td>
+                <td><progress id="file" value="100" max="100"> </progress></td>
+                <td class="tdShipped">Shipped</td>
+            </tr>
+
+            <tr>
+                <td>144</td>
+                <td>Sep 20, 2017</td>
+                <td>George Hegel</td>
+                <td>Germany</td>
+                <td><progress id="file" value="100" max="100"> </progress></td>
+                <td class="tdShipped">Shipped</td>
+            </tr>
+
+            <tr>
+                <td>149</td>
+                <td>Oct 3, 2017</td>
+                <td>John Locke</td>
+                <td>England</td>
+                <td><progress id="file" value="60" max="100"> </progress></td>
+                <td class="tdProcessing">Processing</td>
+            </tr>
+
+            <tr>
+                <td>162</td>
+                <td>Oct 8, 2017</td>
+                <td>Thomas Hobbes</td>
+                <td>England</td>
+                <td><progress id="file" value="25" max="100"> </progress></td>
+                <td class="tdPending">Pending</td>
+            </tr>
+
+            <tr>
+                <td>177</td>
+                <td>Oct 10, 2017</td>
+                <td>Johann Fichte</td>
+                <td>Germany</td>
+                <td><progress id="file" value="25" max="100"> </progress></td>
+                <td class="tdPending">Pending</td>
+            </tr>
+
+        </table>
+    </section>
+
+    <br>
+
+    <section>
+        <legend>Revise</legend>
+        <br>
+        <form>
+            <fieldset>
+                <legend class="filterOrder">Filter Order</legend>
+                <br>
+                <label>Customer</label>
+                <br>
+                <input type="text" placeholder="Enter name">
+                <br>
+
+                <br>
+                <label>Choose a Country:</label>
+                <select name="Choose a Country">
+                    <option value="" disabled selected>Choose a Country</option>
+                </select>
+                <br><br>
+                <label>Status</label>
+                <br>
+                  <input type="radio">
+                  <label class="radio">Pending</label>
+                  <input type="radio">
+                  <label class="radio">Processing</label>
+                <input type="radio">
+                  <label class="radio">Shipped</label>
+                <br>
+                <br>
+
+                <label>Order Date</label>
+                <br>
+                <input class="date" type="date">
+
+                <br><br>
+                <input class="button" type="submit" value="Submit">
+            </fieldset>
+
+
+        </form>
+
+    </section>
+</body>
+
+</html>

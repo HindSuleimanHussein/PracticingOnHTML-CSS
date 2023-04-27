@@ -1,0 +1,123 @@
+caption {
+    background-color: rgb(128, 170, 184);
+    padding: 10px;
+    -webkit-text-fill-color: white;
+
+
+}
+
+h2 {
+    background-color: rgb(3, 31, 66);
+    -webkit-text-fill-color: white;
+    border-color: rgb(3, 31, 66);
+    border-width: thin;
+
+}
+
+table {
+    text-align: center;
+    background-color: white;
+
+}
+
+body {
+    background-color: rgb(209, 233, 255);
+    align-items: center;
+}
+
+legend {
+    border: 2px solid rgb(3, 31, 66);
+    background-color: rgb(3, 31, 66);
+    color: white;
+    width: 713px;
+   font-weight: bold;
+}
+
+fieldset {
+    display:inline-block;
+    /* this will do the magic */   
+    width:0;
+    min-width:80%;
+    /**/
+    box-sizing: border-box;
+    background-color: white;
+  }
+
+  label{
+    font-size: large;
+    font-weight: bold;
+
+  }
+  
+  .tdShipped {
+    background-color: rgb(0, 169, 6);
+    border-radius: 5px;
+    background-size: cover;
+    padding: 4px;
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    -webkit-text-fill-color: white;
+}
+
+.tdPending {
+    background-color: rgb(64, 169, 255);
+    border-radius: 5px;
+    background-size: cover;
+    padding: 4px;
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    -webkit-text-fill-color: white;
+}
+
+.tdProcessing {
+    background-color: rgb(255, 104, 104);
+    border-radius: 5px;
+    background-size: cover;
+    padding: 4px;
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    -webkit-text-fill-color: white;
+}
+
+.border {
+    border: solid 1px #000;
+}
+
+.radio {
+    font-size: medium;
+    font-weight: normal;
+
+}
+
+#loser{
+    font-size: medium;
+    -webkit-text-fill-color: antiquewhite;
+}
+
+.button {
+    border-color: rgb(114, 64, 214);
+    background-color: rgb(114, 64, 214);
+    width: 9.5em;
+    height: 3em;
+    font-size: small;
+    -webkit-text-fill-color: white;
+}
+
+.date {
+    width: 9em;
+    height: 2.5em;
+}
+
+.filterOrder {
+    border: rgb(3, 31, 66);
+    background-color: rgb(128, 170, 184);
+    padding: 10px;
+
+}
+
+
+
+
